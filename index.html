@@ -13,6 +13,7 @@
             for(let dir of data) {
                 if(dir.name == "index.html") continue;
                 if(dir.name == "CNAME") continue;
+                if(dir.name == ".github") continue;
                 $("#list").prepend(`<p><a href="${dir.name}">${dir.name}</a></p>`);
             }
         });
