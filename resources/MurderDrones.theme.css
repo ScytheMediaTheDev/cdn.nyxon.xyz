@@ -128,7 +128,7 @@
   --popout-shading: rgba(0, 0, 0, 0.8); /* popouts background shading color [default: rgba(0, 0, 0, 0.8)] */
   --modal-shading: rgba(0, 0, 0, 0.6); /* modals background shading color [default: rgba(0, 0, 0, 0.6)] */
   --input-shading: rgba(255, 255, 255, 0.05); /* inputs background shading color [default: rgba(255, 255, 255, 0.05)] */
-  --normal-text: #dcdcde; /* text color [default: #dcdcde] */
+  --normal-text: #007180; /* text color [default: #dcdcde] */
   --muted-text: #86868e; /* muted text color [default: #86868e] */
 }
 
