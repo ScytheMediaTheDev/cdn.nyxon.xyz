@@ -18,6 +18,7 @@
         $.get("https://api.github.com/repos/ScytheMediaTheDev/cdn.nyxon.xyz/contents/images/", function(data) {
             for(let dir of data) {
                 if(dir.name == "index.html") continue;
+                if(dir.name == "style.css") continue;
                 $("#list").prepend(`<p><a href="${dir.name}">${dir.name}</a></p>`);
             }
         });
