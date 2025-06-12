@@ -20,6 +20,7 @@
                 if(dir.name == "index.html") continue;
                 if(dir.name == "CNAME") continue;
                 if(dir.name == ".github") continue;
+                if(dir.name == "style.css") continue;
                 $("#list").prepend(`<p><a href="${dir.name}">${dir.name}</a></p>`);
             }
         });
